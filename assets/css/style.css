@@ -289,4 +289,13 @@ hr {
     text-align: center;
     padding: 0 20px;
 }
+#photos {
+column-count: 3;
 
+}
+
+@media screen and (max-width: 8000px) {
+    #photos {
+        column-count: 2;
+    }
+}
